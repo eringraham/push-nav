@@ -146,7 +146,7 @@ h1 {
   .site-wrapper[data-state='slide-open'] {
     overflow: visible;
   }
-  .slide-menu {
+  .navigation {
     position: absolute;
     width: 100%;
     right: -100%;
@@ -160,6 +160,11 @@ h1 {
   .toggle-btn,
   .close-btn {
     display: none;
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
   }
   .navigation ul {
     display: inline-block;
