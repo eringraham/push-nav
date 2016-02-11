@@ -124,7 +124,7 @@ h1 {
   }
 
   // Nav styles
-  .slide-menu{
+  .navigation{
     //creates sliding effect
     position: absolute;
     width: 100%;
@@ -140,6 +140,7 @@ h1 {
   .toggle-btn,
   .close-btn{
     display: none;
+    @include element-invisible;
   }
     .navigation ul {
 		display: inline-block;
