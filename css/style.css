@@ -90,6 +90,10 @@ h1 {
   color: #222;
 }
 
+.navigation li:hover {
+  border-bottom: 2px solid #47c3d2;
+}
+
 .toggle-btn,
 .close-btn {
   color: #47c3d2;
@@ -145,6 +149,9 @@ h1 {
   }
   .site-wrapper[data-state='slide-open'] {
     overflow: visible;
+  }
+  .site-wrapper li:hover {
+    background-color: #47c3d2;
   }
   .navigation {
     position: absolute;
